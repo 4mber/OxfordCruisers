@@ -388,6 +388,8 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .lead {
@@ -1188,9 +1190,10 @@ pre code {
     max-width: 8.333333%;
   }
   .col-lg-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: center;
   }
   .col-lg-3 {
     -ms-flex: 0 0 25%;
@@ -1211,6 +1214,7 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    text-align: center;
   }
   .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
@@ -5452,7 +5456,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 800px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {
@@ -6229,6 +6233,7 @@ button.bg-dark:focus {
 
 .rounded-circle {
   border-radius: 50% !important;
+  margin-bottom: 20px;
 }
 
 .rounded-0 {
