@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 300;
   line-height: 1.5;
   color: #212529;
@@ -1214,7 +1214,8 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    text-align: center;
+    padding-left: 16%;
+    text-align: left;
   }
   .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
@@ -2400,14 +2401,17 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-color: transparent;
+  transition: 0.5s ease;
 }
 
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  opacity: 0.8;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -6015,7 +6019,7 @@ button.close {
 }
 
 .carousel-caption2 {
-  padding-bottom: 57px;
+  padding-bottom: 65px;
 }
 
 .align-baseline {
@@ -6113,7 +6117,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #5f6469 !important;
+  background-color: #434446 !important;
   color: #d0d0d0;
 }
 

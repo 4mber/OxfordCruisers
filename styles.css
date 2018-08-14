@@ -58,11 +58,42 @@ footer {
   text-align: center;
 }
 #pricing-button {
-  margin-top: 5rem;
+  margin-top: 8rem;
   margin-bottom: 10rem;
+  padding: 0.6rem 1rem;
+  font-size: 1.2rem;
 }
 .services-contain {
   padding-top: 7rem;
+}
+
+input, textarea {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  display: block;
+  margin-bottom: 23px;
+  width: 35%;
+  padding: 5px 10px;
+}
+
+input[type=submit] {
+  width: 90px;
+  background-color: #651916;
+  border-color: transparent;
+  color: #FFFFFF;
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+}
+
+input[type=submit]:hover {
+  background-color: #a16e65;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  margin-left: 30px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -159,7 +190,7 @@ footer {
   }
 
   .small-carousel-text p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .smaller {
