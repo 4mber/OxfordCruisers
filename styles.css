@@ -73,18 +73,24 @@ footer {
   margin-bottom: 4rem;
 }
 .carousel2 {
-  margin-left: 200px;
-  margin-right: -85px;
-  margin-top: -75px;
+  margin: -75px -85px 10px 200px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 25.8rem;
   z-index: 10;
 }
+.carousel-caption2 {
+  bottom: -0.5rem;
+  z-index: 10;
+}
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 37rem;
+}
+.carousel-item2 {
+  height: 100%;
+  vertical-align: middle;
 }
 .carousel-item-big {
   height: 42rem;
