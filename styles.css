@@ -29,22 +29,15 @@ footer {
   bottom: 0;
 }
 
-.contact-jumbotron, .about-jumbotron, .services-jumbotron {
-  background-size: cover;
-  background-position: center;
+.about-jumbotron, .services-jumbotron, .contact-jumbotron {
+  background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(to top, #373737, #212121);
 }
 
-.about-jumbotron {
-  background-image: url("resources/cruisers1.png");
-}
-
-.services-jumbotron {
-  background-image: url("resources/cruisers2.jpg");
-}
-
-.contact-jumbotron {
-  background-image: url("resources/cruisers3.jpg");
-}
 
 .white {
   color: #ffffff;
