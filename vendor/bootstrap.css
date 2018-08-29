@@ -4856,7 +4856,6 @@ input[type="button"].btn-block {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
 }
 
 @media (min-width: 576px) {
@@ -6117,7 +6116,12 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #434446 !important;
+  background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(to top, #373737, #212121);
   color: #d0d0d0;
 }
 
