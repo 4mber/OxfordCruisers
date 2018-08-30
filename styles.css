@@ -22,7 +22,7 @@ footer {
 }
 
 .featurette2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #footnote {
@@ -37,7 +37,6 @@ footer {
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(to top, #373737, #212121);
 }
-
 
 .white {
   color: #ffffff;
