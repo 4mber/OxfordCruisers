@@ -29,6 +29,12 @@ footer {
   bottom: 0;
 }
 
+.testimonial {
+  background-color: #ececec;
+  padding: 30px;
+  margin-bottom: 200px;
+}
+
 .about-jumbotron, .services-jumbotron, .contact-jumbotron {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
