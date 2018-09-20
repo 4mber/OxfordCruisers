@@ -1214,7 +1214,7 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    padding-left: 16%;
+    padding-left: 10%;
     text-align: left;
   }
   .col-lg-7 {
@@ -1231,6 +1231,7 @@ pre code {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
+    padding-left: 10%;
   }
   .col-lg-10 {
     -ms-flex: 0 0 83.333333%;
@@ -5787,8 +5788,6 @@ button.close {
   height: 230px;
 }
 
-
-
 .carousel-item {
   position: relative;
   display: none;
@@ -8765,6 +8764,29 @@ button.bg-dark:focus {
   }
 }
 
+@media (max-width: 640px) {
+  .carousel-inner2 {
+    height: 280px;
+  }
+}
+
+@media (max-width: 475px) {
+  .carousel-inner2 {
+    height: 300px;
+  }
+}
+
+/*
+  #foot-right {
+    text-align: left !important;
+  }*/
+
+@media (max-width: 768px) {
+  .carousel2 {
+    margin: -75px -85px 100px 80px;
+  }
+}
+
 @media (min-width: 768px) {
   .text-md-left {
     text-align: left !important;
@@ -8774,6 +8796,15 @@ button.bg-dark:focus {
   }
   .text-md-center {
     text-align: center !important;
+  }
+  .carousel-inner2 {
+    height: 260px;
+  }
+}
+
+@media (min-width: 865px) {
+  .carousel-inner2 {
+    height: 290px;
   }
 }
 
@@ -8787,6 +8818,9 @@ button.bg-dark:focus {
   .text-lg-center {
     text-align: center !important;
   }
+  .carousel-inner2 {
+    height: 260px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -8798,6 +8832,15 @@ button.bg-dark:focus {
   }
   .text-xl-center {
     text-align: center !important;
+  }
+  .carousel-inner2 {
+    height: 240px;
+  }
+}
+
+@media (min-width: 1415px){
+  .carousel-inner2 {
+    height: 230px;
   }
 }
 

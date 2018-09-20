@@ -117,6 +117,10 @@ form {
   bottom: -0.5rem;
   z-index: 10;
 }
+#mainhead.carousel-caption {
+  bottom: 0;
+  top: 260px;
+}
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 37rem;
@@ -144,6 +148,16 @@ form {
 }
 .about-feature {
   margin-bottom: 0;
+}
+
+#prices {
+  margin-top: 100px;
+  margin-left: 10%
+}
+
+#pricelist {
+  margin-left: 10%;
+  margin-bottom: 12%;
 }
 
 /* MARKETING CONTENT
@@ -207,5 +221,21 @@ form {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel2 {
+    margin: -105px -85px 10px 80px;
+  }
+}
+
+/*  #foot-right {
+    text-align: left !important;
+  }*/
+
+@media (max-width: 768px) {
+  .carousel2 {
+    margin: -75px -85px 100px 80px;
   }
 }
