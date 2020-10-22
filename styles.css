@@ -291,6 +291,9 @@ form {
     background-color: #830723;
     padding-top: 25px;
   }
+  iframe {
+    width: 250px !important;
+  }
 }
 
 
