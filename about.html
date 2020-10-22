@@ -11,6 +11,7 @@
     <link href="vendor/bootstrap.css" rel="stylesheet">
     <link href="vendor/bootstrap-grid.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -58,44 +59,37 @@
                 <div class="col-md-12">
                     <br><br><br><br>
                     <h1>Who we are...</h1><br>
-                    <p class="lead"><strong>Oxford Cruisers Ltd.</strong> is a family run working boatyard, situated on the Thames, in the heart of Oxfordshire, UK. With over 28 years of experience, we specialise in the restoration, maintenance and repair of Narrowboats, Dutch Barges, and Cruisers. From small routine jobs to ambitious projects, we offer a wide range of professional marine services. <em>This page should serve as an extended bio though, so if there's any more info you would like to add, let me know. Below I've included a section to feature staff members, let me know if you like this or if I should remove. I think it just adds a little bit more interest to the page/site, but if you'd rather keep it simple we can leave it out. If you like it, let me know who all you would include here, and if you want I can come around and do hi-definition photos of everyone at some point - should only take a few seconds each.</em></p><br><br><br>
+                    <p class="lead"><strong>Oxford Cruisers Ltd.</strong> is a family run working boatyard, situated on the Thames, in the heart of Oxfordshire, UK. With over 28 years of experience, we specialise in the restoration, maintenance and repair of Narrowboats, Dutch Barges, and Cruisers. From small routine jobs to ambitious projects, we offer a wide range of professional marine services. </p><br><br><br>
                 </div>
             </div>
 
             <div class="row">
-              <div class="col-lg-2">
-                <img class="rounded-circle" src="resources/andi.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Andi Malpus</h2>
-                <h6>Fearless Leader</h6>
-                <p>Andi is awesome. He gets everything done around here and basically runs the show. He specializes in x, y, and z.</p>
-              </div>
-              <div class="col-lg-2">
+              
+<!--               <div class="col-lg-4">
                 <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Staff Member</h2>
                 <h6>This is a Job Title</h6>
                 <p>Staff member number two is also awesome, and he specializes in a, b, and c. Here's some more info about him.</p>
+              </div> -->
+
+              <div class="col-lg-12" id="staff">
+                <img class="rounded-circle" src="resources/andi.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Andi Malpus</h2>
+                <h6>Lead of Boat Yard Management</h6>
+                <p>For any questions, contact directly at <a href="mailto:oxfordcruisers@aol.com">oxfordcruisers@aol.com</a></p>
               </div>
-              <div class="col-lg-2">
+<!--               
+              <div class="col-lg-4">
                 <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Staff Member</h2>
                 <h6>This is a Job Title</h6>
                 <p>Staff member number three kind of sucks, but we love him anyway. He's from blah blah blah, and specializes in something.</p>
-              </div>
-              <div class="col-lg-2">
-                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Staff Member</h2>
-                <h6>This is a Job Title</h6>
-                <p>Staff member number four specializes in something, although none of us really know what that is. He's cool, I guess.</p>
-              </div>
-              <div class="col-lg-2">
-                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Staff Member</h2>
-                <h6>This is a Job Title</h6>
-                <p>Staff member number five has been with us for a million years and we've kind of forgotten what he does around here.</p>
-              </div>
+              </div> -->
+
+              <button type="button" class="btn btn-secondary" id="training-button" data-toggle="modal" data-target="#modal1">View Our Training Standards</button>
             </div>
 
-            <button type="button" class="btn btn-secondary" id="training-button" data-toggle="modal" data-target="#modal1">View Our Training Standards >></button>
+            
     
             <!-- Modal -->
             <div class="modal fade" id="modal1" role="dialog">
@@ -179,7 +173,7 @@
         <!-- FOOTER -->
         <footer class="bg-dark">
             <div class="row featurette2">
-                <div class="col-md-7 order-md-2 text-right">
+                <div class="col-md-7 order-md-2 text-right"  id="foot-right">
                     <h5>Contact Us</h5>
                     <span>(P) 01865 881698</span><br>
                     <span>(F) 01865 880056</span><br>
@@ -256,7 +250,7 @@
             </div>
             <div id="footnote">
                 <p class="float-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2018 Oxford Cruisers Ltd.</p>
+                <p class="copy">&copy; 2018 Oxford Cruisers Ltd.</p>
             </div>
         </footer>
     </main>
